@@ -17,11 +17,11 @@ import { cn } from '@/lib/utils';
 
 const navigation = [
   { name: 'Dashboard', href: '/', icon: LayoutDashboard },
-  { name: 'Estoque de Lotes', href: '/lots', icon: Package },
-  { name: 'Aplicações', href: '/applications', icon: Syringe },
-  { name: 'Temperatura', href: '/temperature', icon: Thermometer },
+  { name: 'Lotes', href: '/lotes', icon: Package },
+  { name: 'Aplicacoes', href: '/aplicacoes', icon: Syringe },
+  { name: 'Temperatura', href: '/temperatura', icon: Thermometer },
   { name: 'Checklist Diário', href: '/checklist', icon: ClipboardCheck },
-  { name: 'Perdas', href: '/losses', icon: AlertTriangle },
+  { name: 'Perdas', href: '/perdas', icon: AlertTriangle },
   { name: 'Relatórios', href: '/reports', icon: FileText },
   { name: 'Configurações', href: '/settings', icon: Settings },
 ];
